@@ -1,0 +1,8 @@
+{
+  "name": "My Custom Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
