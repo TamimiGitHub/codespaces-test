@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install stm
 
 # Update github submodules recursively
-git submodule update --init --recursive
+# git submodule update --init --recursive
 
 # Wait for Docker to start
 while (! docker info > /dev/null 2>&1); do
