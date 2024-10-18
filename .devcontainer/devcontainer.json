@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
-  "postCreateCommand": "/bin/bash .devcontainer/installSolace.sh",
+  "postCreateCommand": "/bin/bash .devcontainer/configureEnv.sh",
   "postAttachCommand": {
     "portSetup": "/bin/bash .devcontainer/portSetup.sh"
   },
@@ -21,10 +21,9 @@
   },
   "portsAttributes": {
     "8080": {
-      "label": "Solace PubSub+ Manager",
+      "label": "Solace",
       "onAutoForward": "openBrowser"
     }
   },
-  "shutdownAction": "stopContainer",
   "forwardPorts": [8080]
 }

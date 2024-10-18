@@ -1,0 +1,6 @@
+[submodule "samples/solace-samples-nodejs"]
+	path = samples/solace-samples-nodejs
+	url = git@github.com:SolaceSamples/solace-samples-nodejs.git
+[submodule "samples/solace-samples-python"]
+	path = samples/solace-samples-python
+	url = git@github.com:SolaceSamples/solace-samples-python.git
