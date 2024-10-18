@@ -5,9 +5,11 @@
 
 ## Available tools and configurations in this workshop
 
-- Solace PubSub+ Software Broker 
-- VSCode Solace PubSub+ extension
-- Solace TryMe CLI tool `stm`
-- Solace Samples 
-  - NodeJs
-  - Python
+1. Solace PubSub+ Software Broker 
+1. VSCode Solace PubSub+ extension
+1. Solace TryMe CLI tool `stm`
+1. Solace Samples 
+    1. NodeJs
+    1. Python
+    1. Go
+    1. Java

@@ -8,6 +8,13 @@ sudo apt-get install stm
 # Update github submodules recursively
 git submodule update --init --recursive
 
+# Install Java 17
+
+sudo apt install -y openjdk-17-jdk
+echo "export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64" >> ~/.bashrc
+echo "export PATH=\$JAVA_HOME/bin:\$PATH" >> ~/.bashrc
+source ~/.bashrc
+
 # Wait for Docker to start
 while (! docker info > /dev/null 2>&1); do
   echo "Waiting for Docker to start..."
