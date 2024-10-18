@@ -2,7 +2,6 @@
   "name": "Solace Developer Workshop",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "",
   "postCreateCommand": "/bin/bash .devcontainer/configureEnv.sh",
   "postAttachCommand": {
     "portSetup": "/bin/bash .devcontainer/portSetup.sh"
@@ -22,7 +21,7 @@
   "portsAttributes": {
     "8080": {
       "label": "Solace",
-      "onAutoForward": "openBrowser"
+      "onAutoForward": "openBrowserOnce"
     }
   },
   "forwardPorts": [8080]
