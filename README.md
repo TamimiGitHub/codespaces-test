@@ -1,5 +1,8 @@
 # Solace Worshops
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TamimiGitHub/codespaces-test)
+
+
 ## Available tools and configurations in this workshop
 
 - Solace PubSub+ Software Broker 
