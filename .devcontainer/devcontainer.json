@@ -1,8 +1,30 @@
 {
-  "name": "My Custom Codespace",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "name": "Solace Developer Workshop",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "/bin/bash .devcontainer/installSolace.sh",
+  "postAttachCommand": {
+    "portSetup": "/bin/bash .devcontainer/portSetup.sh"
   },
-  "postCreateCommand": "npm install",
-  "remoteUser": "node"
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "solace-tools.solace-try-me-vsc-extension"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "8080": {
+      "label": "Solace PubSub+ Manager",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "shutdownAction": "stopContainer",
+  "forwardPorts": [8080]
 }
