@@ -20,11 +20,11 @@
   },
   "portsAttributes": {
     "8080": {
-      "label": "Solace Manager",
+      "label": "Solace",
       "onAutoForward": "openBrowserOnce"
     },
     "1443": {
-      "label": "TLS Port"
+      "label": "TLS"
     }
   },
   "forwardPorts": [8080, 1443]
