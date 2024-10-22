@@ -1,6 +1,6 @@
 # Solace Worshops
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TamimiGitHub/codespaces-test)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/TamimiGitHub/codespaces-test?quickstart=1)
 
 
 ## Available tools and configurations in this workshop
